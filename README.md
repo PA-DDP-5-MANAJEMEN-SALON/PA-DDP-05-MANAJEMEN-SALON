@@ -34,7 +34,7 @@ Maka akan menghasilkan output berupa "Pilihan tidak valid", dan otomatis akan ke
 
    <img width="686" height="114" alt="image" src="https://github.com/user-attachments/assets/0c47f210-0279-491d-a767-8de6b87c4240" />
 
-    Apabila admin salah menginput username maupun password, maka sistem akan menampilkan output berupa "Login gagal. Periksa kembali nama pengguna, sandi, dan role."
+    > Apabila admin salah menginput username maupun password, maka sistem akan menampilkan output berupa "Login gagal. Periksa kembali nama pengguna, sandi, dan role."
 
 
 
