@@ -20,6 +20,7 @@ SISTEM MANAJEMEN SALON **Barber Five**
 Saat memulai program, akan menampilkan menu utama yaitu berupa login admin, login pengguna, daftar akun, serta menu untuk keluar dari program.  
 
 Jika menginput selain angka 1-4
+
 <img width="474" height="261" alt="image" src="https://github.com/user-attachments/assets/fd9bf52a-82ed-40f9-a0ef-89e589f540a4" />
 
 Maka akan menghasilkan output berupa "Pilihan tidak valid", dan otomatis akan kembali ke menu utama.
@@ -27,13 +28,13 @@ Maka akan menghasilkan output berupa "Pilihan tidak valid", dan otomatis akan ke
 
 1. Login Admin
 
-   <img width="326" height="168" alt="image" src="https://github.com/user-attachments/assets/4bced118-75dd-4d40-9959-33cbabf54db2" />
+<img width="326" height="168" alt="image" src="https://github.com/user-attachments/assets/4bced118-75dd-4d40-9959-33cbabf54db2" />
 
-    Ketika kita memilih login admin sistem akan menampilkan untuk admin menginput username beserta password.
+Ketika kita memilih login admin sistem akan menampilkan untuk admin menginput username beserta password.
 
-   <img width="686" height="114" alt="image" src="https://github.com/user-attachments/assets/0c47f210-0279-491d-a767-8de6b87c4240" />
+<img width="686" height="114" alt="image" src="https://github.com/user-attachments/assets/0c47f210-0279-491d-a767-8de6b87c4240" />
 
-   Apabila admin salah menginput username maupun password, maka sistem akan menampilkan output berupa "Login gagal. Periksa kembali nama pengguna, sandi, dan role."
+Apabila admin salah menginput username maupun password, maka sistem akan menampilkan output berupa "Login gagal. Periksa kembali nama pengguna, sandi, dan role."
 
 # Menu Admin  
 
