@@ -26,7 +26,7 @@ Jika menginput selain angka 1-4
 Maka akan menghasilkan output berupa "Pilihan tidak valid", dan otomatis akan kembali ke menu utama.
 
 
-1. Login Admin
+# 1. Login Admin
 
 <img width="326" height="168" alt="image" src="https://github.com/user-attachments/assets/4bced118-75dd-4d40-9959-33cbabf54db2" />
 
