@@ -6,7 +6,7 @@ SISTEM MANAJEMEN SALON >>> **Barber Five**
 
 **Anggota Kelompok**
 1. Az-Zahra Imsawati Sugianto (25091160620)
-2. Suhail Marzuq
+2. Suhail Marzuq (2509116071)
 3. Hanif Amelia Putri (2509116075)
 
 # FLOWCHART
