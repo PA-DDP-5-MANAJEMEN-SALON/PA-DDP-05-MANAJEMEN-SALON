@@ -522,18 +522,21 @@ def top_up_saldo(akun):
         print("\nJangan tekan CTRL + Z ya!")
         return
 
-    saldo_sekarang = baca_saldo(akun["nama_pengguna"])
-    saldo_baru = saldo_sekarang + tambah
-
-    if saldo_baru < MIN_SALDO:
-        print("Minimal saldo adalah Rp25.000.")
+    if tambah < MIN_SALDO:
+        print("Minimal top-up adalah Rp25000.")
         return
-    elif saldo_baru > MAX_SALDO:
-        print("Maksimal saldo yang diperbolehkan Rp500.000.")
+    elif tambah > MAX_SALDO:
+        print("Maksimal top-up per transaksi adalah Rp500000.")
         return
 
-    update_saldo_pengguna(akun["nama_pengguna"], saldo_baru)
-    print(f"Top-up berhasil! Saldo sekarang: Rp {saldo_baru}")
+    konfirmasi = input("Yakin ingin top-up sebesar Rp" + str(tambah) + "? (y/n): ")
+    if konfirmasi == "y" or konfirmasi == "Y":
+        saldo_sekarang = baca_saldo(akun["nama_pengguna"])
+        saldo_baru = saldo_sekarang + tambah
+        update_saldo_pengguna(akun["nama_pengguna"], saldo_baru)
+        print("Top up berhasil! Saldo sekarang: Rp" + str(saldo_baru))
+    else:
+        print("Top up dibatalkan.")
 
 
 # ==========================
