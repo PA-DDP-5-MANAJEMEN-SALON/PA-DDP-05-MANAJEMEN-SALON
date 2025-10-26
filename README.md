@@ -2,7 +2,7 @@
 
 Sistem Informasi - B - 2025
 
-SISTEM MANAJEMEN SALON **Barber Five**  
+SISTEM MANAJEMEN SALON >>> **Barber Five**  
 
 **Anggota Kelompok**
 1. Az-Zahra Imsawati Sugianto (25091160620
@@ -19,7 +19,7 @@ SISTEM MANAJEMEN SALON **Barber Five**
 
 Saat memulai program, akan menampilkan menu utama yaitu berupa login admin, login pengguna, daftar akun, serta menu untuk keluar dari program.  
 
-Jika menginput selain angka 1-4
+* Jika menginput selain angka 1-4
 
 <img width="474" height="261" alt="image" src="https://github.com/user-attachments/assets/fd9bf52a-82ed-40f9-a0ef-89e589f540a4" />
 
@@ -29,8 +29,9 @@ Maka akan menghasilkan output berupa "Pilihan tidak valid", dan otomatis akan ke
 # 1. Login Admin
 
 <img width="326" height="168" alt="image" src="https://github.com/user-attachments/assets/4bced118-75dd-4d40-9959-33cbabf54db2" />
-
 Ketika kita memilih login admin sistem akan menampilkan untuk admin menginput username beserta password.
+
+* jika input username dan password salah
 
 <img width="686" height="114" alt="image" src="https://github.com/user-attachments/assets/0c47f210-0279-491d-a767-8de6b87c4240" />
 
@@ -42,15 +43,17 @@ Apabila admin salah menginput username maupun password, maka sistem akan menampi
 
 Apabila masuk ke menu admin maka akan menampilkan fitur untuk melihat layanan, tambah layanan, edit layanan. hapus layanan, serta untuk melihat daftar transaksi dari pengguna.     
 
+* jika input selain angka 1-6
+
 <img width="257" height="62" alt="image" src="https://github.com/user-attachments/assets/17fbaafe-ca51-48ca-98a7-29cf7e2410e4" />  
 
 Lalu jika kita input menu selain 1-6 maka akan muncul "Pilihan tidak valid!" dan menu admin muncul kembali.  
 
-**1. Lihat Daftar Layanan **   
+**1. Lihat Daftar Layanan**   
 
 <img width="433" height="342" alt="image" src="https://github.com/user-attachments/assets/adb1c711-1e74-4646-8a8e-37d372116975" />  
 
-Pada menu pertama yaitu lihat daftar layana, maka akan menampilkan semua jenis layanan yang ada di Barber Five.  
+Pada menu pertama yaitu lihat daftar layanan, maka akan menampilkan semua jenis layanan yang ada di Barber Five.  
 
 **2. Tambah Layanan Baru**  
 
@@ -60,7 +63,16 @@ Menu kedua yaitu tambah layanan baru, yaitu untuk menambahkan layanan yang belum
 
 <img width="470" height="160" alt="image" src="https://github.com/user-attachments/assets/17bb8d89-b629-41d3-b4ad-6d22f3aab4e0" />  
 
-Nama layanan tidak bisa hanya berupa angka, apabila kita memasukkan angka saja di layanan baru maka akan memunculkan "Nama tidak boleh angka saja". Kemudian, pada harga layanan tidak boleh memasukkan huruf, harus angka saja. Apabila harga tidak valid maka akan menghasilkan outpur "Harga harus angka"  
+
+* Jika di nama layanan menginput angka
+<img width="466" height="67" alt="image" src="https://github.com/user-attachments/assets/8127e3fc-2e27-4485-bca9-e66a65c38ef9" />
+
+Nama layanan tidak bisa hanya berupa angka, apabila kita memasukkan angka saja di layanan baru maka akan memunculkan "Nama tidak boleh angka saja". 
+
+* Jika di harga layanan menginput selain angka
+<img width="585" height="107" alt="{BED31755-4E58-419A-BA82-9F5CFE5FB010}" src="https://github.com/user-attachments/assets/40d9e8f7-4b75-48c8-af17-e3db68650bfb" />
+
+Kemudian, pada harga layanan tidak boleh memasukkan huruf, harus angka saja. Apabila harga tidak valid maka akan menghasilkan outpur "Harga harus angka"  
 
 **3. Edit Layanan**  lewatin dulu :)  
 
@@ -69,6 +81,8 @@ Nama layanan tidak bisa hanya berupa angka, apabila kita memasukkan angka saja d
 <img width="486" height="439" alt="image" src="https://github.com/user-attachments/assets/b81a0642-b064-4630-9ab5-d793b1c6bbd7" />   
 
 Di menu ke 4 merupakan menu untuk menghapus layanan. apabila ingin menghapus suatu layanan maka ketik ID layanan yang ingin di hapus. Apabila ID atau layanan ditemukan maka akan memunculkan "Layanan berhasil dihapus!"   
+
+* Jika input selain angka
 
 <img width="485" height="62" alt="image" src="https://github.com/user-attachments/assets/f1681375-77e4-457a-a19e-32bab4e575c0" />   
 
@@ -87,6 +101,8 @@ Apabila dari penngguna atau pelanggan belum ada reservasi. Maka akan muncul "Bel
 
 **6. Keluar**
 
+<img width="449" height="339" alt="{28CF7CD0-C52E-4E01-A86F-BBC3B60A70AA}" src="https://github.com/user-attachments/assets/19d00946-5f57-44eb-ad53-b552a7a611c1" />
+
 Menu keluar digunakan untuk keluar dari menu admin, dan akan dibawa ke menu utama.    
 
 # 2. Login Pengguna  
@@ -96,7 +112,7 @@ Menu keluar digunakan untuk keluar dari menu admin, dan akan dibawa ke menu utam
 
 Apabila login berhasil maka akan menghasilkan "Login berhasil sebagai pengguna. Selamat datang (nama)", dan akan dibawa ke menu pelanggan.  
 
-
+ * Jika pengguna belum memiliki akun dan salah input username dan password
 <img width="804" height="130" alt="image" src="https://github.com/user-attachments/assets/303afd4d-4552-441a-baf7-ac1c8043aa06" />   
 
 Apabila salah input username, passworod, dan ketika kita belum memiliki akun maka login akan gagal dan akan otomatis dibawa ke menu utama.  
@@ -106,6 +122,9 @@ Apabila salah input username, passworod, dan ketika kita belum memiliki akun mak
 <img width="416" height="189" alt="image" src="https://github.com/user-attachments/assets/89812997-0f20-4259-b227-833a3198d2d1" />   
 
 Di mmenu pengguna kita dapat melihat daftar layanan, buat reservasi, cek saldo E-Money, Top up saldo, dan menu untuk keluar dari pengguna. 
+
+**1. Lihat Daftar Layanan**
+
 
 
  
