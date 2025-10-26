@@ -223,8 +223,11 @@ Untuk mendaftar akun baru, pengguna hanya diminta untuk memasukan nama dan juga 
 
 apabila nama sudah terdaftar, maka akan muncul output seperti di atas.
 
-**Jika ingin keluar dari sistem
-**
+
+
+**Jika ingin keluar dari sistem**
+
+
 <img width="498" height="239" alt="{11E891C4-9FF3-4900-9917-6E3E944A7A0A}" src="https://github.com/user-attachments/assets/3c0de6f1-7d65-4662-bbd7-26ac79fe33ff" />
 
 
