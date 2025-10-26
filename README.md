@@ -14,6 +14,7 @@ SISTEM MANAJEMEN SALON **Barber Five**
 <img width="2727" height="3924" alt="Untitled Diagram-Page-1 drawio (1)" src="https://github.com/user-attachments/assets/206e308e-2ec5-4788-8948-ae1ce20058ad" />   
 
 # Menu Utama  
+
 <img width="441" height="253" alt="image" src="https://github.com/user-attachments/assets/eda92047-2652-402e-a44e-6480d32aa8c8" />  
 
 Saat memulai program, akan menampilkan menu utama yaitu berupa login admin, login pengguna, daftar akun, serta menu untuk keluar dari program.  
@@ -25,7 +26,6 @@ Maka akan menghasilkan output berupa "Pilihan tidak valid", dan otomatis akan ke
 
 
 1. Login Admin
-
 
    <img width="326" height="168" alt="image" src="https://github.com/user-attachments/assets/4bced118-75dd-4d40-9959-33cbabf54db2" />
 
@@ -58,6 +58,7 @@ Pada menu pertama yaitu lihat daftar layana, maka akan menampilkan semua jenis l
 Menu kedua yaitu tambah layanan baru, yaitu untuk menambahkan layanan yang belum ada di jenis layanan. Pada menu ini kita diminta untuk memasukkan nama layanan baru beserta harganya. apabila valid maka akan memunculkan output "Layanan berhasil ditambahkan!"  
 
 <img width="470" height="160" alt="image" src="https://github.com/user-attachments/assets/17bb8d89-b629-41d3-b4ad-6d22f3aab4e0" />  
+
 Nama layanan tidak bisa hanya berupa angka, apabila kita memasukkan angka saja di layanan baru maka akan memunculkan "Nama tidak boleh angka saja". Kemudian, pada harga layanan tidak boleh memasukkan huruf, harus angka saja. Apabila harga tidak valid maka akan menghasilkan outpur "Harga harus angka"  
 
 **3. Edit Layanan**  lewatin dulu :)  
@@ -69,6 +70,7 @@ Nama layanan tidak bisa hanya berupa angka, apabila kita memasukkan angka saja d
 Di menu ke 4 merupakan menu untuk menghapus layanan. apabila ingin menghapus suatu layanan maka ketik ID layanan yang ingin di hapus. Apabila ID atau layanan ditemukan maka akan memunculkan "Layanan berhasil dihapus!"   
 
 <img width="485" height="62" alt="image" src="https://github.com/user-attachments/assets/f1681375-77e4-457a-a19e-32bab4e575c0" />   
+
 Apabila ID layanan tidak ditemukan maka akan memunculkan "ID layanan tidak ditemukan!" dan akan langsung kembali ke menu admin.    
 
 **5. Lihat Daftar Transaksi**   
@@ -79,9 +81,11 @@ Apabila ID layanan tidak ditemukan maka akan memunculkan "ID layanan tidak ditem
 Pada menu ini digunakan untuk melihat daftar transaksi dari pengguna.
 
 <img width="312" height="65" alt="image" src="https://github.com/user-attachments/assets/e26ea8f9-2e73-4389-8cbc-310883767939" />   
+
 Apabila dari penngguna atau pelanggan belum ada reservasi. Maka akan muncul "Belum ada data transaksi"  
 
 **6. Keluar**
+
 Menu keluar digunakan untuk keluar dari menu admin, dan akan dibawa ke menu utama.  
 
 
