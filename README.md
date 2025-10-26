@@ -2,13 +2,12 @@
 
 Sistem Informasi - B - 2025
 
-SISTEM MANAJEMEN SALON
-# BABERFIVE  
+SISTEM MANAJEMEN SALON **Barber Five**  
 
-# Anggota Kelompok  
-1. Az-Zahra Imsawati Sugianto
+**Anggota Kelompok ** 
+1. Az-Zahra Imsawati Sugianto (25091160620
 2. Suhail Marzuq
-3. Hanif Amelia Putri
+3. Hanif Amelia Putri (2509116075)
 
 # FLOWCHART
 
