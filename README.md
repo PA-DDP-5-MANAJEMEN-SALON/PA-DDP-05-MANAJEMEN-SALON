@@ -75,7 +75,18 @@ Nama layanan tidak bisa hanya berupa angka, apabila kita memasukkan angka saja d
 
 Kemudian, pada harga layanan tidak boleh memasukkan huruf, harus angka saja. Apabila harga tidak valid maka akan menghasilkan outpur "Harga harus angka"  
 
-**3. Edit Layanan**  lewatin dulu :)  
+**3. Edit Layanan** 
+
+<img width="477" height="492" alt="image" src="https://github.com/user-attachments/assets/a44a8400-5d0a-44cc-8963-3a75b11c0662" />  
+
+pada menu ini kita dapat mengedit layanan, kita dapat mengedit nama layanan saja, harga saja, maupun keduanya  
+
+
+
+
+
+
+
 
 **4. Hapus Layanan**  
 
