@@ -213,8 +213,18 @@ Sistem menampilkan output "Input tidak valid. Masukkan angka.".
 
 Menu keluar digunakan untuk keluar dari menu pengguna, dan sistem akan menampilkan menu utama.
 
-* Jika ingin keluar dari sistem
+# Daftar akun baru
 
+<img width="684" height="223" alt="image" src="https://github.com/user-attachments/assets/c5fa21bc-2aca-4ee5-a3f0-ba92f3d29e53" />  
+
+Untuk mendaftar akun baru, pengguna hanya diminta untuk memasukan nama dan juga password. 
+
+<img width="445" height="167" alt="image" src="https://github.com/user-attachments/assets/f284b20d-d004-40be-849d-b5648ee634e9" />   
+
+apabila nama sudah terdaftar, maka akan muncul output seperti di atas.
+
+**Jika ingin keluar dari sistem
+**
 <img width="498" height="239" alt="{11E891C4-9FF3-4900-9917-6E3E944A7A0A}" src="https://github.com/user-attachments/assets/3c0de6f1-7d65-4662-bbd7-26ac79fe33ff" />
 
 
