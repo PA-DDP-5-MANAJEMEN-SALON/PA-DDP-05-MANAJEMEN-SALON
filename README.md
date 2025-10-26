@@ -87,7 +87,33 @@ Apabila dari penngguna atau pelanggan belum ada reservasi. Maka akan muncul "Bel
 
 **6. Keluar**
 
-Menu keluar digunakan untuk keluar dari menu admin, dan akan dibawa ke menu utama.  
+Menu keluar digunakan untuk keluar dari menu admin, dan akan dibawa ke menu utama.    
+
+# 2. Login Pengguna  
+
+<img width="457" height="389" alt="image" src="https://github.com/user-attachments/assets/bd7ea543-85d4-4632-9eb1-93764cc72785" />
+  
+
+Apabila login berhasil maka akan menghasilkan "Login berhasil sebagai pengguna. Selamat datang (nama)", dan akan dibawa ke menu pelanggan.  
+
+
+<img width="804" height="130" alt="image" src="https://github.com/user-attachments/assets/303afd4d-4552-441a-baf7-ac1c8043aa06" />   
+
+Apabila salah input username, passworod, dan ketika kita belum memiliki akun maka login akan gagal dan akan otomatis dibawa ke menu utama.  
+
+# Menu Pengguna  
+
+<img width="416" height="189" alt="image" src="https://github.com/user-attachments/assets/89812997-0f20-4259-b227-833a3198d2d1" />   
+
+Di mmenu pengguna kita dapat melihat daftar layanan, buat reservasi, cek saldo E-Money, Top up saldo, dan menu untuk keluar dari pengguna. 
+
+
+ 
+
+
+
+
+
 
 
 
