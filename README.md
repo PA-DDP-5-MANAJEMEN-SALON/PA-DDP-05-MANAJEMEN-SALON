@@ -5,7 +5,7 @@ Sistem Informasi - B - 2025
 SISTEM MANAJEMEN SALON >>> **Barber Five**  
 
 **Anggota Kelompok**
-1. Az-Zahra Imsawati Sugianto (25091160620
+1. Az-Zahra Imsawati Sugianto (25091160620)
 2. Suhail Marzuq
 3. Hanif Amelia Putri (2509116075)
 
@@ -29,6 +29,7 @@ Maka akan menghasilkan output berupa "Pilihan tidak valid", dan otomatis akan ke
 # 1. Login Admin
 
 <img width="326" height="168" alt="image" src="https://github.com/user-attachments/assets/4bced118-75dd-4d40-9959-33cbabf54db2" />
+
 Ketika kita memilih login admin sistem akan menampilkan untuk admin menginput username beserta password.
 
 * jika input username dan password salah
@@ -103,36 +104,112 @@ Apabila dari penngguna atau pelanggan belum ada reservasi. Maka akan muncul "Bel
 
 <img width="449" height="339" alt="{28CF7CD0-C52E-4E01-A86F-BBC3B60A70AA}" src="https://github.com/user-attachments/assets/19d00946-5f57-44eb-ad53-b552a7a611c1" />
 
-Menu keluar digunakan untuk keluar dari menu admin, dan akan dibawa ke menu utama.    
+Menu keluar digunakan untuk keluar dari menu admin, dan sistem akan menampilkan menu utama.    
+
+* Jika ingin keluar dari sistem
+
+<img width="498" height="239" alt="{11E891C4-9FF3-4900-9917-6E3E944A7A0A}" src="https://github.com/user-attachments/assets/3c0de6f1-7d65-4662-bbd7-26ac79fe33ff" />
+
+
+Pengguna harus memilih menu 4 di menu utama.
+
 
 # 2. Login Pengguna  
 
-<img width="457" height="389" alt="image" src="https://github.com/user-attachments/assets/bd7ea543-85d4-4632-9eb1-93764cc72785" />
-  
+<img width="404" height="380" alt="{F97FFB73-B3DD-4B6D-B8EE-39E36F7366A6}" src="https://github.com/user-attachments/assets/1e7af329-64fe-4f58-af03-750600f405b8" />
+
 
 Apabila login berhasil maka akan menghasilkan "Login berhasil sebagai pengguna. Selamat datang (nama)", dan akan dibawa ke menu pelanggan.  
 
  * Jika pengguna belum memiliki akun dan salah input username dan password
 <img width="804" height="130" alt="image" src="https://github.com/user-attachments/assets/303afd4d-4552-441a-baf7-ac1c8043aa06" />   
 
-Apabila salah input username, passworod, dan ketika kita belum memiliki akun maka login akan gagal dan akan otomatis dibawa ke menu utama.  
+Apabila salah input username, password, dan ketika kita belum memiliki akun maka login akan gagal dan akan otomatis dibawa ke menu utama.  
 
 # Menu Pengguna  
 
 <img width="416" height="189" alt="image" src="https://github.com/user-attachments/assets/89812997-0f20-4259-b227-833a3198d2d1" />   
 
-Di mmenu pengguna kita dapat melihat daftar layanan, buat reservasi, cek saldo E-Money, Top up saldo, dan menu untuk keluar dari pengguna. 
+Di menu pengguna kita dapat melihat daftar layanan, buat reservasi, cek saldo E-Money, Top up saldo, dan menu untuk keluar dari pengguna. 
 
 **1. Lihat Daftar Layanan**
 
+<img width="380" height="352" alt="image" src="https://github.com/user-attachments/assets/65a0a6c1-ac14-4647-9e35-b984458e3ddb" />
 
+Pada menu pengguna yang pertama yaitu lihat daftar layanan, sistem akan langsung menampilkan output berupa id, nama layanan, dan harga yang tersedia di Barber Five.
+
+**2. Buat Reservasi**
+
+<img width="475" height="397" alt="image" src="https://github.com/user-attachments/assets/0c8db096-d836-4654-9ab0-b6d006b20ede" />
+
+Pada menu pengguna yang kedua yaitu buat reservasi, sitem akan menampilkan daftar layanan dan pengguna diharuskan menginput id layanan berupa angka. Pada kondisi diatas sistem menampilkan output "Saldo Anda tidak cukup untuk melakukan reservasi.", dikarenakan setiap pengguna memiliki saldo 0 sebagai pengguna baru dan harus melakukan top up saldo di menu 4.
+
+* kondisi ketika pengguna sudah memiliki saldo
+
+  <img width="428" height="324" alt="image" src="https://github.com/user-attachments/assets/7ab9ecab-17a6-4d1c-8e97-9699092ef865" />
+
+Ketika pengguna memiliki saldo yang cukup untuk melakukan reservasi maka sistem akan menampilkan sisa saldo pengguna dan invoice yang berisi nama pengguna, layanan, harga, sisa saldo, dan tanggal.
+
+* Jika pengguna memilih id yang tidak ada di daftar layanan
+
+  <img width="413" height="74" alt="image" src="https://github.com/user-attachments/assets/d94691f5-d8f0-4567-b72b-d3875ff26e45" />
+
+Ketika pengguna menginput id yang tidak ada di dafatr layanan maka sistem akan menampilkan output " ID layanan tidak ditemukan.".
+
+**3. Cek Saldo E-money**
+
+<img width="375" height="226" alt="{BE059E6B-8F58-407C-AAEF-8E78031DED32}" src="https://github.com/user-attachments/assets/8d020ba2-95ad-4c4a-8dd0-d2f9143f5557" />
+
+
+Ketika pengguna ingin mengecek saldo di menu ketiga, sitem akan langsung menampilkan output saldo e-money pengguna sekarang.
+
+**4. Top Up Saldo**
+
+<img width="453" height="265" alt="image" src="https://github.com/user-attachments/assets/a4ee5a16-0073-4cb4-8522-4c428ad6f916" />
+
+Ketika saldo E-Money kurang, Pengguna bisa melakukan Top Up saldo ke E-money, pengguna diminta untuk memasukan nominal saldo Top Up dan nominal 25000 dan maksimal 500000.
+
+* Jika pengguna menginput kurang dari 25000, maka:
+
+<img width="312" height="83" alt="{34E7D82E-F91B-401C-8761-DDE545EEEE32}" src="https://github.com/user-attachments/assets/b9a6e56c-75e9-4f53-ac1b-604095df1209" />
+
+
+
+Outpunya adalah "Minimal top-up adalah Rp25.000.".
+
+* Jika pengguna menginput lebih dari 500000, maka:
+
+
+<img width="447" height="81" alt="image" src="https://github.com/user-attachments/assets/1e799382-c3ce-4ff9-8830-6ba5a4787cf7" />
+
+
+Outputnya adalah "Maksimal top-up per transaksi adalah Rp 500000.".
+
+
+* Jika pengguna Menginput selain angka
+
+  
+<img width="339" height="79" alt="{DB97A5D7-42FA-4B65-9C29-3E3C63364C7A}" src="https://github.com/user-attachments/assets/c70c864d-ae1c-45b3-89d5-ef749e804214" />
 
  
+Sistem menampilkan output "Input tidak valid. Masukkan angka.".
 
 
 
+**5. Keluar**
+
+<img width="380" height="284" alt="{A60F2F83-8A87-443A-9DFC-E56DC0627123}" src="https://github.com/user-attachments/assets/26209f2e-7bf6-4991-a8dd-1482e42ab9dd" />
 
 
+
+Menu keluar digunakan untuk keluar dari menu pengguna, dan sistem akan menampilkan menu utama.
+
+* Jika ingin keluar dari sistem
+
+<img width="498" height="239" alt="{11E891C4-9FF3-4900-9917-6E3E944A7A0A}" src="https://github.com/user-attachments/assets/3c0de6f1-7d65-4662-bbd7-26ac79fe33ff" />
+
+
+Pengguna harus memilih menu 4 di menu utama.
 
 
 
