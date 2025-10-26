@@ -79,13 +79,11 @@ Kemudian, pada harga layanan tidak boleh memasukkan huruf, harus angka saja. Apa
 
 <img width="477" height="492" alt="image" src="https://github.com/user-attachments/assets/a44a8400-5d0a-44cc-8963-3a75b11c0662" />  
 
-pada menu ini kita dapat mengedit layanan, kita dapat mengedit nama layanan saja, harga saja, maupun keduanya  
+pada menu ini kita dapat mengedit layanan, kita dapat mengedit nama layanan saja, harga saja, maupun keduanya.
 
+<img width="487" height="136" alt="image" src="https://github.com/user-attachments/assets/2d3e2af3-5989-47e3-9e72-50ca3d240739" />  
 
-
-
-
-
+sama seperti tambah layanan, pada menu edit ini juga nama layanan tidak bisa hanya berupa angka, dan untuk harga harus berupa angka saja.
 
 
 **4. Hapus Layanan**  
